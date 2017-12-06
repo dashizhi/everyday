@@ -1,0 +1,1202 @@
+2017-12-06 01:44:07 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\LianxiController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/LianxiController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('lianxi')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('add_do1')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_do1', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 01:44:07 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/add_do1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/add_do1'
+    'QUERY_STRING' => 'r=lianxi/add_do1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63026'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512524647.2484
+    'REQUEST_TIME' => 1512524647
+]
+2017-12-06 01:44:57 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\models\Zhuce' in file: D:\phpStudy\WWW\train one\yii/frontend/models/Zhuce.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(46): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\LianxiController->actionAdd_do1()
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add_do1', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_do1', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2017-12-06 01:44:57 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/add_do1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/add_do1'
+    'QUERY_STRING' => 'r=lianxi/add_do1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63039'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512524697.5263
+    'REQUEST_TIME' => 1512524697
+]
+2017-12-06 01:45:57 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.hobby' doesn't exist in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Command.php:1067
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Command.php(1067): PDOStatement->execute()
+#1 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(104): yii\db\Command->queryAll()
+#3 [internal function]: frontend\controllers\LianxiController->actionAdd_3()
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add_3', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_3', Array)
+#8 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2basic.hobby' doesn't exist
+The SQL being executed was: SELECT * FROM hobby in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Command.php(1082): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM h...')
+#1 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\Command.php(386): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(104): yii\db\Command->queryAll()
+#3 [internal function]: frontend\controllers\LianxiController->actionAdd_3()
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add_3', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_3', Array)
+#8 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii2basic.hobby' doesn't exist
+)
+
+2017-12-06 01:45:56 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/add_3'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+    'id' => '46af9a4e08b05dd9bd9682d090e59324c0177f14fbd65135988a299b28f423b7a:2:{i:0;s:2:\"id\";i:1;s:2:\"16\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/add_3'
+    'QUERY_STRING' => 'r=lianxi/add_3'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63071'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D; id=46af9a4e08b05dd9bd9682d090e59324c0177f14fbd65135988a299b28f423b7a%3A2%3A%7Bi%3A0%3Bs%3A2%3A%22id%22%3Bi%3A1%3Bs%3A2%3A%2216%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512524756.5156
+    'REQUEST_TIME' => 1512524756
+]
+2017-12-06 05:22:22 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(114): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'D:\\phpStudy\\WWW...', 114, Array)
+#1 [internal function]: frontend\controllers\LianxiController->actionWc()
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wc', Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/wc', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 05:22:21 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/wc'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '1'
+        1 => '2'
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/wc'
+    'QUERY_STRING' => 'r=lianxi/wc'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64096'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512537741.7465
+    'REQUEST_TIME' => 1512537741
+]
+2017-12-06 05:27:13 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 1 for yii\db\BaseActiveRecord::findOne(), called in D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php on line 113 and defined in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\BaseActiveRecord.php:105
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\db\BaseActiveRecord.php(105): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\phpStudy\\WWW...', 105, Array)
+#1 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(113): yii\db\BaseActiveRecord::findOne()
+#2 [internal function]: frontend\controllers\LianxiController->actionWc()
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wc', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/wc', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2017-12-06 05:27:13 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/wc'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '1'
+        1 => '2'
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/wc'
+    'QUERY_STRING' => 'r=lianxi/wc'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64342'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii.com'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512538033.5085
+    'REQUEST_TIME' => 1512538033
+]
+2017-12-06 05:27:27 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(114): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'D:\\phpStudy\\WWW...', 114, Array)
+#1 [internal function]: frontend\controllers\LianxiController->actionWc()
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('wc', Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/wc', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 05:27:26 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/wc'
+]
+
+$_POST = [
+    'hobby' => [
+        0 => '1'
+        1 => '2'
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/wc'
+    'QUERY_STRING' => 'r=lianxi/wc'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64352'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii.com'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512538046.2332
+    'REQUEST_TIME' => 1512538046
+]
+2017-12-06 06:05:50 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php:90
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(90): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'D:\\phpStudy\\WWW...', 90, Array)
+#1 [internal function]: frontend\controllers\LianxiController->actionAdd_do2()
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add_do2', Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_do2', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:05:49 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/add_do2'
+]
+
+$_POST = [
+    'username' => 'hehe'
+    'sr' => '123'
+    'dz' => '123'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2196'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/add_do2'
+    'QUERY_STRING' => 'r=lianxi/add_do2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49596'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540349.4304
+    'REQUEST_TIME' => 1512540349
+]
+2017-12-06 06:06:08 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php:90
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\frontend\controllers\LianxiController.php(90): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'D:\\phpStudy\\WWW...', 90, Array)
+#1 [internal function]: frontend\controllers\LianxiController->actionAdd_do2()
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('add_do2', Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('lianxi/add_do2', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:06:07 [127.0.0.1][-][aiop4d8osq090ah09ggdlad2n7][info][application] $_GET = [
+    'r' => 'lianxi/add_do2'
+]
+
+$_POST = [
+    'username' => 'hehe'
+    'sr' => '123'
+    'dz' => '123'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'aiop4d8osq090ah09ggdlad2n7'
+    '_csrf-frontend' => '2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2196'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=lianxi/add_do2'
+    'QUERY_STRING' => 'r=lianxi/add_do2'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49616'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=aiop4d8osq090ah09ggdlad2n7; _csrf-frontend=2a58b6935ce7cf0c1c33ee5745fa051ee4a903f85ea9c2985fe7c85c99120040a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22f1BjnI9NcEPg_It1KGXdXKAFbPQPwpMZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=lianxi/add_2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.yii.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540367.3654
+    'REQUEST_TIME' => 1512540367
+]
+2017-12-06 06:06:34 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:06:33 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2196'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49652'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540393.9158
+    'REQUEST_TIME' => 1512540393
+]
+2017-12-06 06:06:45 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:06:45 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2196'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49687'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540405.0252
+    'REQUEST_TIME' => 1512540405
+]
+2017-12-06 06:16:01 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:16:01 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2168'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50225'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540960.9886
+    'REQUEST_TIME' => 1512540960
+]
+2017-12-06 06:16:08 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:16:07 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2168'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50227'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512540967.9015
+    'REQUEST_TIME' => 1512540967
+]
+2017-12-06 06:21:43 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:21:43 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2168'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50442'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512541303.8837
+    'REQUEST_TIME' => 1512541303
+]
+2017-12-06 06:23:34 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:23:34 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50553'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512541414.1936
+    'REQUEST_TIME' => 1512541414
+]
+2017-12-06 06:24:06 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: D:\phpStudy\WWW\train one\yii/frontend/controllers/SiteController.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(638): class_exists('frontend\\contro...')
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('site')
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('')
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-12-06 06:24:06 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50587'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512541446.813
+    'REQUEST_TIME' => 1512541446
+]
+2017-12-06 06:26:54 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\models\LoginForm' in file: D:\phpStudy\WWW\train one\yii/frontend/models/LoginForm.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\phpStudy\WWW\train one\yii\frontend\controllers\SiteController.php(84): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionLogin()
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2017-12-06 06:26:53 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50732'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512541613.9415
+    'REQUEST_TIME' => 1512541613
+]
+2017-12-06 06:29:36 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'frontend\models\LoginForm' in file: D:\phpStudy\WWW\train one\yii/frontend/models/LoginForm.php. Namespace missing? in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\phpStudy\WWW\train one\yii\frontend\controllers\SiteController.php(83): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionLogin()
+#3 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2017-12-06 06:29:36 [127.0.0.1][-][a0a7jq4t9633oomsgoo7t2v3v5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'a0a7jq4t9633oomsgoo7t2v3v5'
+    '_csrf-frontend' => 'a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50854'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/train one/yii/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=a0a7jq4t9633oomsgoo7t2v3v5; _csrf-frontend=a68ead4ce9dac0fc3842856320b686e775dc25fab1073de50b17686d8e3441e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22nsp3U7RW8UGNev3GbA1LfCWZ5SOM8QhX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yii.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1512541776.2289
+    'REQUEST_TIME' => 1512541776
+]
