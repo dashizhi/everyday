@@ -1200,3 +1200,74 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1512541776.2289
     'REQUEST_TIME' => 1512541776
 ]
+2017-12-11 11:20:58 [127.0.0.1][-][o37vv4th5t2iminksr6strh3b2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: huya/sever in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('sever', Array)
+#1 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('huya/sever', Array)
+#2 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\train one\yii\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\train one\yii\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-12-11 11:20:58 [127.0.0.1][-][o37vv4th5t2iminksr6strh3b2][info][application] $_GET = [
+    'r' => 'huya/sever'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b6c67204ead1a57b3caf09092a17c49fd4499f531e8d5fb81f06f32228fdb8a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¦ÁjDª˜!eæ½4\"é0ãÝU!ì#3Š²­ä-‚\";}'
+    'advanced-frontend' => 'o37vv4th5t2iminksr6strh3b2'
+    '_csrf-frontend' => '6c8b5e769b38f60e0b93ba99ab9b966bffcb11cceb8a96bfedbc781a59a2bb6fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Yrhk2-Pe0SIHGWLXj0nTsuzacyjK2Uxm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\web\\myspl\\bin;D:\\svn\\bin;D:\\phpStudy\\php70n;D:\\composer;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\node\\;C:\\Users\\LENOVO\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\LENOVO\\AppData\\Local\\atom\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\LENOVO\\AppData\\Roaming\\npm'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2132'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\'
+    'PATH_INFO' => '/'
+    'SCRIPT_NAME' => '/train one/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/train%20one/yii/frontend/web/index.php/?r=huya/sever'
+    'QUERY_STRING' => 'r=huya/sever'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59081'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/train one/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_csrf=b6c67204ead1a57b3caf09092a17c49fd4499f531e8d5fb81f06f32228fdb8a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A6%C1jD%AA%98%21e%E6%BD4%22%E90%E3%12%1B%DDU%21%EC%233%8A%1F%B2%AD%13%06%E4-%82%22%3B%7D; advanced-frontend=o37vv4th5t2iminksr6strh3b2; _csrf-frontend=6c8b5e769b38f60e0b93ba99ab9b966bffcb11cceb8a96bfedbc781a59a2bb6fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Yrhk2-Pe0SIHGWLXj0nTsuzacyjK2Uxm%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/train one/yii/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1512991258.0139
+    'REQUEST_TIME' => 1512991258
+]
